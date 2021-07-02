@@ -20,6 +20,7 @@ function handleProductChange(product, isIncrease){
     calculateTotal();
 }
 
+
 function calculateTotal(){
     const phoneCount = getInputValue('phone');
     const caseCount = getInputValue('case');
